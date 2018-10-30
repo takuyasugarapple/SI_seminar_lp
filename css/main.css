@@ -1886,7 +1886,7 @@ h6 {
 }
 
 #header.header-scrolled {
-    background: rgba(51,51,51, 0.99);
+    background: rgba(51, 51, 51, 0.99);
     transition: all 0.5s
 }
 
@@ -2262,8 +2262,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-size: cover
 }
 
+@media (max-width: 700px) {
+    .banner-area {
+        background: none;
+    }
+}
+
 .banner-area .overlay-bg {
-    background: rgba(4, 9, 30, 0.85)
+    background: rgba(4, 9, 30, 0.75)
 }
 
 .banner-content {
@@ -3354,17 +3360,17 @@ h6 {
     }
 
     .section-gap {
-    padding: 20px 0;
-}
+        padding: 20px 0;
+    }
 
-    .primary-btn{
+    .primary-btn {
         width: 100%
     }
 
-    .ad h1{
+    .ad h1 {
         padding-top: 50px
     }
-    
+
     h3,
     .h3 {
         font-size: 20px
