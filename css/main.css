@@ -1886,7 +1886,7 @@ h6 {
 }
 
 #header.header-scrolled {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(51,51,51, 0.99);
     transition: all 0.5s
 }
 
@@ -1906,7 +1906,6 @@ h6 {
 #header #logo h1 a,
 #header #logo h1 a:hover {
     color: #fff;
-    padding-left: 10px;
 }
 
 #header #logo img {
@@ -2259,7 +2258,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-    background: url(../img/header-bg.jpg) center;
+    background: url(../img/header-bg.png) center;
     background-size: cover
 }
 
@@ -2646,7 +2645,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-speaker h1 {
-    margin: 20px 0
+    margin: 20px 0;
+    letter-spacing: 2px
 }
 
 .single-speaker .lnr {
