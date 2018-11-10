@@ -2262,9 +2262,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-size: cover
 }
 
+.banner-bg-img{
+    height: 821px
+}
+
 @media (max-width: 700px) {
     .banner-area {
-        background: none;
+        background: url(../img/lion.jpg) center;
+        background-size: cover;
+    }
+    
+    .banner-bg-img{
+        height: 700px
     }
 }
 
@@ -3296,11 +3305,6 @@ h6 {
 .question-right {
     width: 50%;
     padding: 50px
-}
-
-.question-left p,
-.question-right p {
-    text-align: center
 }
 
 .question-left ul {}
