@@ -3197,7 +3197,15 @@ h6 {
 }
 
 .program-box {
-    display: flex
+    padding: 30px;
+    background: #fefefe;
+    border-left: 2px solid #fbb818;
+    box-shadow: 0 0 50px -19px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
 .program-left {
@@ -3211,7 +3219,8 @@ h6 {
 
 .program-left li,
 .program-right li {
-    line-height: 30px
+    line-height: 30px;
+    
 }
 
 .program-right {
