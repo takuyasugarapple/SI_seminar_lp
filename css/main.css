@@ -3336,9 +3336,6 @@ h6 {
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
-    -webkit-background-attachment: fixed;
-    -moz-background-attachment: fixed;
-    -ms-background-attachment: fixed;
 }
 
 h4.title span{
@@ -3456,6 +3453,10 @@ article.reason{
     .seminar-article-left{
         padding-left: 1rem;
     }
+
+    .thubmnail {
+        background-attachment: unset;
+    }
 }
 
 @media (max-width: 576px) {
@@ -3478,4 +3479,5 @@ article.reason{
     .content .primary-btn{
         margin-top: 0;
     }
+
 }
