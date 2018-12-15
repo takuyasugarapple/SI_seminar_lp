@@ -3455,7 +3455,7 @@ article.reason{
     }
 
     .thubmnail {
-        background-attachment: unset;
+        background-attachment: scroll;
     }
 }
 
