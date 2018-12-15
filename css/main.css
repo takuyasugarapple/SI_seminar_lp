@@ -3336,6 +3336,9 @@ h6 {
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -ms-background-attachment: fixed;
 }
 
 h4.title span{
