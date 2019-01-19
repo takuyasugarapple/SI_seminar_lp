@@ -2294,7 +2294,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-content .text-content h4 {
     padding-bottom: 10px;
-    letter-spacing: 8px
+    letter-spacing: 8px;
+    margin-bottom: 20px;    
 }
 
 .banner-content .primary-btn {
@@ -2304,6 +2305,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-content .primary-btn:hover {
     border-color: #fbb818;
+    color: #fbb818;
+}
+
+.banner-content .home-schedule a:hover h4{
     color: #fbb818;
 }
 
@@ -3205,7 +3210,7 @@ h6 {
 }
 
 
-#schedule .schedule-txt {
+.schedule .schedule-txt {
     margin-left: 16.66667%;
 }
 
@@ -3228,6 +3233,18 @@ h6 {
     bottom: 0px;
     width: 4px;
     background-color: #fbb818;
+}
+
+.event2::after{
+    background-color: #FBDC18;
+}
+
+.event3::after{
+    background-color: #233BAB;
+}
+
+.event4::after{
+    background-color: #4E20AC;
 }
 
 .event-day-circle {
@@ -3398,7 +3415,7 @@ article.reason{
         font-size: 20px
     }
 
-    #schedule .schedule-txt {
+    .schedule .schedule-txt {
         margin-left: 0
     }
 
