@@ -2289,7 +2289,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-content .text-content {
     margin-top: 30px;
-    margin-bottom: 150px
+    /* margin-bottom: 150px */
 }
 
 .banner-content .text-content h4 {
