@@ -3247,6 +3247,10 @@ h6 {
     background-color: #4E20AC;
 }
 
+.event5::after{
+    background-color: #13C913;
+}
+
 .event-day-circle {
     position: absolute;
     top: 50%;
